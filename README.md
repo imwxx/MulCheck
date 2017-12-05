@@ -8,6 +8,7 @@
 * 关于返回值：返回值value=1表示正常，value=0表示服务不正常，value=2表示进程重启过
 * 按照此规范填写配置即可，保存到配置文件conf.ini
 * 其实falcon自带的proc.num和net.port.listen
+```
 [a]
 action = portCheck
 host = 127.0.0.1
@@ -42,3 +43,4 @@ metric = nginxPidCheck
 action = pidCheck
 process = php-fpm
 metric = phpPidCheck
+```
